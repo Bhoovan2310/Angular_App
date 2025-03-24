@@ -1,12 +1,15 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Helloworld';
+  title = 'MyAngular';
+
+  ngOnInit(): void {
+    console.log('Hello from ngOnInit');
+    this.title = 'Hello from BridgeLabz.';
+  }
 }
