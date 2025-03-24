@@ -1,5 +1,5 @@
 <div>
-  <img [src]="imageURL" alt="BridgeLabz Logo" width="100"/>
+  <img [src]="imageURL" (click)="onClick($event)" alt="BridgeLabz Logo" />
   <h1>{{this.title}}</h1>
 </div>
 

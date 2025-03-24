@@ -1,0 +1,11 @@
+img {
+    width: 12.5%;
+    height: auto;
+    display: block;
+    margin: 0 1em;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+}
